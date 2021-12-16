@@ -30,4 +30,6 @@ Link cài đặt:
 
 Nhớ download phiên bản phù hợp với hệ điều hành mà bạn đang sử dụng   
 
-***Video hướng dẫn download và cài đặt JDK và VS Code***: [https://www.youtube.com/watch?v=RrYAee6ZrTw&t=3s&ab_channel=TechMasterVietnam](https://www.youtube.com/watch?v=RrYAee6ZrTw&t=3s&ab_channel=TechMasterVietnam)
+***Video hướng dẫn download và cài đặt JDK và VS Code***: [https://www.youtube.com/watch?v=RrYAee6ZrTw&t=3s&ab_channel=TechMasterVietnam](https://www.youtube.com/watch?v=RrYAee6ZrTw&t=3s&ab_channel=TechMasterVietnam)  
+
+***Video hướng dẫn download và cài đặt JDK và IntelliJ IDEA:*** [https://youtu.be/YvgLunafFKE](https://youtu.be/YvgLunafFKE)
