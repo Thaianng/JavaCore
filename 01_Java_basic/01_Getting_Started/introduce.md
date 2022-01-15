@@ -5,11 +5,11 @@ biến nhất hiện nay
 Nó giúp các lập trình viên phát triển các ứng dụng có thể chạy trên
 nhiều thiết bị phần cứng và hệ điều hành khác nhau
 
-![image](image/java-01.png)  
+![image](../image/java-01.png)  
 
 ## 2.Lịch sử phát triển  
 
-![image](image/java-02.png)
+![image](../image/java-02.png)
 
 ## 3. Đặc tính của java
 - Là ngôn ngữ lập trình hướng đối tượng: Các chương trình Java được xây dựng dựa trên việc thiết kế các lớp và đối tượng.  
@@ -23,7 +23,7 @@ nhiều thiết bị phần cứng và hệ điều hành khác nhau
 - Máy ảo java (JVM - Java Virtual Machine) là một máy ảo cho phép chạy các chương trình Java cùng như các chương trình khác viết bằng ngôn ngữ khác mà được biên dịch sang mã máy  
 - Ngôn ngữ dành cho máy ảo Java được gọi là java bytecode, hay ngắn gọn là bytecode  
 
-![image](image/java-03.png)  
+![image](../image/java-03.png)  
 
 ## 5. Các nền tảng Java
 
@@ -31,7 +31,7 @@ nhiều thiết bị phần cứng và hệ điều hành khác nhau
 
 **Java Platform** bao gồm một công cụ thực thi (execution engine), trình biên dịch (compiler) và một bộ thư viện Java.
  
-![image](image/java-04.png)  
+![image](../image/java-04.png)  
 
 
 **Các nền tảng java:**  
@@ -48,7 +48,7 @@ import <other_package>;
 
 public class <class_name>{
     <variables>;
-    <mehthods>;
+    <methods>;
 }
 ```
 Trong đó:
@@ -58,3 +58,5 @@ Trong đó:
 - `class`: Từ khóa nhằm định nghĩa lớp của java
 - `variables`: Biến
 - `methods`: Phương thức
+
+

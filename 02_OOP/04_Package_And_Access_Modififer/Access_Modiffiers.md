@@ -17,5 +17,11 @@ Có 4 loại phạm vi truy cập:
 
 Private xác định phạm vi truy cập nội bộ một class. Chỉ có thể sử dụng `private` với constructor, biến và phương thức.  
 
+Ví dụ: Cho thuộc tính `name` của class Animal có phạm vi truy cập là `private`, thì chỉ có thể truy cập `name` trong class `Animal`. Nhưng nếu truy cập vào biến `name` từ class `Main` thì ngay lập tức bị lỗi
+
+![image](../image/private.png)
 
 
+## protected
+
+Protected là phạm vi truy cập có thể từ trong và ngoài `package`, nhưng phải thông qua tính kế thừa
