@@ -6,6 +6,7 @@ import util.Menu;
 
 import java.sql.Connection;
 import java.util.ArrayList;
+import java.util.Comparator;
 import java.util.Scanner;
 
 public class Controller {
@@ -85,5 +86,18 @@ public class Controller {
         System.out.println("Nhập username mới: ");
         String username = sc.nextLine();
         service.updateUsername(conn, updateUser, username);
+    }
+
+    public void sortByName(){
+//        listUser.sort(new Comparator<User>() {
+//            @Override
+//            public int compare(User o1, User o2) {
+//                return o1.getUsername().compareTo(o2.getUsername());
+//            }
+//        });
+
+        listUser.stream()
+                .sorted((o1, o2) -> o1.getUsername().compareTo(o2.getUsername()))
+                .forEach(user -> System.out.println(user));
     }
 }

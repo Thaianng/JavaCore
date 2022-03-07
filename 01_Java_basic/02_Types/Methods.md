@@ -12,7 +12,7 @@ Ví dụ:
 ```java
 public class Main{
     public void myMethod(){
-
+        //Nội dung phương thức
     }
 }
 ```  

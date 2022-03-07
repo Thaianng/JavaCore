@@ -6,14 +6,14 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 
 public class ConnectJDBC {
-    private String hostName = "localhost:8082";
-    private String dbName = "my_database";
-    private String username = "root";
-    private String password = "123";
+    private static final String hostName = "localhost:8082";
+    private static final String dbName = "my_database";
+    private static final String username = "root";
+    private static final String password = "123";
 
-    private String connectionURL = "jdbc:mysql://"+hostName+"/"+dbName;
+    private static final String connectionURL = "jdbc:mysql://"+hostName+"/"+dbName;
 
-    public Connection connect(){
+    public static Connection connect(){
         //Tạo đối tượng Connection
         Connection conn = null;
 

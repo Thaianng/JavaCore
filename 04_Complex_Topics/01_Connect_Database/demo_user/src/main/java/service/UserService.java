@@ -39,6 +39,8 @@ public class UserService {
 
     }
 
+
+
     public void addNewUser(Connection conn, String username, String password, String email, String mobile, Gender gender, String avatar){
         String id = GenerateId.randomId(5);
         String query = "INSERT INTO `users`(`id`, `username`, `password`, `email`, `mobile`, `gender`, `avatar`) " +
