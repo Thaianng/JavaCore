@@ -296,3 +296,8 @@ public class Main {
 Kết quả:  
 
 ![image](../image/delete.png)
+
+
+<br>
+
+*Xem toàn bộ code tại [đây](https://github.com/EriChannel/JavaCore/tree/main/04_Complex_Topics/01_Connect_Database/demo-jdbc)*
